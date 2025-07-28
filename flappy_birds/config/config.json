@@ -1,0 +1,35 @@
+{
+  "display": {
+    "screen_width": 400,
+    "screen_height": 600,
+    "fps": 60,
+    "window_title": "Flappy Bird"
+  },
+  "colors": {
+    "white": [255, 255, 255],
+    "blue": [135, 206, 250],
+    "green": [0, 200, 0],
+    "yellow": [255, 255, 0],
+    "red": [255, 0, 0]
+  },
+  "physics": {
+    "gravity": 800.0,
+    "bird_jump": -300.0,
+    "pipe_speed": 180.0
+  },
+  "gameplay": {
+    "pipe_gap": 150,
+    "pipe_width": 50,
+    "bird_radius": 15,
+    "bird_start_x": 50,
+    "powerup_duration": 5000,
+    "powerup_cooldown": 10000
+  },
+  "controls": {
+    "jump_key": "space",
+    "powerup_key": "a",
+    "restart_key": "r",
+    "quit_key": "q",
+    "pause_key": "p"
+  }
+}
